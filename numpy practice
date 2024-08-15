@@ -22,3 +22,17 @@ print(arr3)
 arrr=arr2.copy()
 print(arrr)
 arrr
+
+
+#q3
+a1=np.zeros(10)
+print(a1)
+
+#q6
+a1=np.zeros(10)
+a1[4]=1
+print(a1)
+
+#q9
+a2=np.arange(9).reshape(3,3)
+print(a2)
