@@ -1,3 +1,24 @@
 # implementation and practice of numpy 
 
 printf("Hello World !")
+
+import numpy as np
+
+# a normal basic traditional array 
+arr1=[2,4,6]
+print(arr1)
+
+#arrays can be printed by just typing arrayname or within print
+
+#numpy array with linear spacing (starting no, ending no, quantity) all printed in float & starting and ending no are printed and counted too
+arr2=np.linspace(3,9,3)
+print(arr2)
+
+#a zero value matrix in numpy array 
+arr3=np.zeros((3,2))
+print(arr3)
+
+#copying an array in numpy
+arrr=arr2.copy()
+print(arrr)
+arrr
