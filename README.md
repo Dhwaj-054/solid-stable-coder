@@ -1,2 +1,7 @@
 # solid-stable-coder
-Contains my practice codes and projects on various domains
+
+Hi I'm Dhwaj
+
+I am learning about Artificial Intelligence and Data Science
+
+This repository contains my practice codes and projects
