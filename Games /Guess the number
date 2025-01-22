@@ -1,0 +1,53 @@
+Guess the number game in python 
+
+import random
+
+def guess_the_number():
+    print("Welcome to the Guess-the-Number Game!")
+    print("I have picked a number between 1 and 100. Can you guess it?")
+    
+    # Generate a random number between 1 and 100
+    number_to_guess = random.randint(1, 100)
+    attempts = 0
+    guessed = False
+
+    while not guessed:
+        try:
+            # Take input from the user
+            user_guess = int(input("Enter your guess: "))
+            attempts += 1
+            
+            if user_guess < number_to_guess:
+                print("Too low! Try again.")
+            elif user_guess > number_to_guess:
+                print("Too high! Try again.")
+            else:
+                print(f"Congratulations! You've guessed the number {number_to_guess} in {attempts} attempts.")
+                guessed = True
+        except ValueError:
+            print("Please enter a valid number.")
+
+if __name__ == "__main__":
+    guess_the_number()
+
+
+
+
+
+
+
+Output eg:
+Welcome to the Guess-the-Number Game!
+I have picked a number between 1 and 100. Can you guess it?
+Enter your guess: 44
+Too low! Try again.
+Enter your guess: 76
+Too high! Try again.
+Enter your guess: 59
+Too high! Try again.
+Enter your guess: 50
+Too high! Try again.
+Enter your guess: 47
+Too low! Try again.
+Enter your guess: 48
+Congratulations! You've guessed the number 48 in 6 attempts.
