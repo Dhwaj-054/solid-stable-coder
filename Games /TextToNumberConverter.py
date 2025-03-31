@@ -28,8 +28,8 @@ if __name__ == "__main__":
     result = text_to_numbers(user_input)
     print(f"Converted: {result}")
 
-Output:
+#Output:
 
-Welcome to the Text-to-Number Converter!
-Enter a sentence with numbers as words (e.g., 'five apples and three oranges'): Twenty nine
-Converted: 20 9
+#Welcome to the Text-to-Number Converter!
+#Enter a sentence with numbers as words (e.g., 'five apples and three oranges'): Twenty nine
+#Converted: 20 9
