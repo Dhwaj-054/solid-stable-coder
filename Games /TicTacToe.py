@@ -1,7 +1,7 @@
-Tic Tac Toe game for 1v1 and 1vComputer
+#Tic Tac Toe game for 1v1 and 1vComputer
 
+#Tic Tac Toe game code in python for 2 players input based
 
-Tic Tac Toe game code in python for 2 players input based
 def print_board(board):
     for row in board:
         print(" | ".join(row))
@@ -170,7 +170,7 @@ if __name__ == "__main__":
     tic_tac_toe()
 
 
-
+"""
 Output:
 Welcome to Tic Tac Toe! You are X, and the computer is O.
   |   |  
@@ -233,3 +233,4 @@ O | X |
 X | O | O
 -----
 Congratulations! You win!
+"""
