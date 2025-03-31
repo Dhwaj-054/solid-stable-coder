@@ -1,4 +1,4 @@
-Guess the number game in python 
+#Guess the number game in python 
 
 import random
 
@@ -36,18 +36,19 @@ if __name__ == "__main__":
 
 
 
-Output eg:
-Welcome to the Guess-the-Number Game!
-I have picked a number between 1 and 100. Can you guess it?
-Enter your guess: 44
-Too low! Try again.
-Enter your guess: 76
-Too high! Try again.
-Enter your guess: 59
-Too high! Try again.
-Enter your guess: 50
-Too high! Try again.
-Enter your guess: 47
-Too low! Try again.
-Enter your guess: 48
-Congratulations! You've guessed the number 48 in 6 attempts.
+#Output eg:
+
+#Welcome to the Guess-the-Number Game!
+#I have picked a number between 1 and 100. Can you guess it?
+#Enter your guess: 44
+#Too low! Try again.
+#Enter your guess: 76
+#Too high! Try again.
+#Enter your guess: 59
+#Too high! Try again.
+#Enter your guess: 50
+#Too high! Try again.
+#Enter your guess: 47
+#Too low! Try again.
+#Enter your guess: 48
+#Congratulations! You've guessed the number 48 in 6 attempts.
